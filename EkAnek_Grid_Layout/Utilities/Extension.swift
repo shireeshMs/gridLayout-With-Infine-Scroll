@@ -24,6 +24,7 @@ extension UIImageView {
             GCD.runOnMainThread {
                 switch result {
                 case .Success(let image):
+                    // image
                     self?.image = image
                 case .Failure(_):
                     break
