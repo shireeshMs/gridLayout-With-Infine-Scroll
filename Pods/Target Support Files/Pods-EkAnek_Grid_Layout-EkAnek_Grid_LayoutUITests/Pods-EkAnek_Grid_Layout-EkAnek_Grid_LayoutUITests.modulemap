@@ -1,0 +1,6 @@
+framework module Pods_EkAnek_Grid_Layout_EkAnek_Grid_LayoutUITests {
+  umbrella header "Pods-EkAnek_Grid_Layout-EkAnek_Grid_LayoutUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
