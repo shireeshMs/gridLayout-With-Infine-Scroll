@@ -39,6 +39,8 @@
 		7C1268C126808D4600182401 /* ImageDownloadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1268AD26808D4600182401 /* ImageDownloadOperation.swift */; };
 		7C1268C226808D4600182401 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1268AE26808D4600182401 /* Reachability.swift */; };
 		7C1268C326808D4600182401 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1268AF26808D4600182401 /* Request.swift */; };
+		7C1268C52680920C00182401 /* FlickrNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1268C42680920C00182401 /* FlickrNetworkTests.swift */; };
+		7C1268C62680922B00182401 /* FlickrSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1268A326808D4500182401 /* FlickrSearchService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +101,7 @@
 		7C1268AD26808D4600182401 /* ImageDownloadOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloadOperation.swift; sourceTree = "<group>"; };
 		7C1268AE26808D4600182401 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		7C1268AF26808D4600182401 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		7C1268C42680920C00182401 /* FlickrNetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrNetworkTests.swift; sourceTree = "<group>"; };
 		9ECEE1833B168CC453C09089 /* Pods-EkAnek_Grid_LayoutTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EkAnek_Grid_LayoutTests.release.xcconfig"; path = "Target Support Files/Pods-EkAnek_Grid_LayoutTests/Pods-EkAnek_Grid_LayoutTests.release.xcconfig"; sourceTree = "<group>"; };
 		D3F2C76A3B567A8ABDEBAAB3 /* Pods_EkAnek_Grid_Layout_EkAnek_Grid_LayoutUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EkAnek_Grid_Layout_EkAnek_Grid_LayoutUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7736D5394CF1A38EF7A5300 /* Pods_EkAnek_Grid_Layout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EkAnek_Grid_Layout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -178,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				7C12685A26805F0700182401 /* EkAnek_Grid_LayoutTests.swift */,
+				7C1268C42680920C00182401 /* FlickrNetworkTests.swift */,
 				7C12685C26805F0700182401 /* Info.plist */,
 			);
 			path = EkAnek_Grid_LayoutTests;
@@ -544,7 +548,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C1268C62680922B00182401 /* FlickrSearchService.swift in Sources */,
 				7C12685B26805F0700182401 /* EkAnek_Grid_LayoutTests.swift in Sources */,
+				7C1268C52680920C00182401 /* FlickrNetworkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
