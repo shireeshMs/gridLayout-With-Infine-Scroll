@@ -12,9 +12,7 @@
 		3363C972B50A4B7DC5C1E692 /* Pods_EkAnek_Grid_LayoutTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029399D95B3A8F7A2C591347 /* Pods_EkAnek_Grid_LayoutTests.framework */; };
 		7C12684126805EFF00182401 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12684026805EFF00182401 /* AppDelegate.swift */; };
 		7C12684326805EFF00182401 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12684226805EFF00182401 /* SceneDelegate.swift */; };
-		7C12684526805EFF00182401 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12684426805EFF00182401 /* ViewController.swift */; };
 		7C12684826805F0000182401 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C12684626805F0000182401 /* Main.storyboard */; };
-		7C12684B26805F0000182401 /* EkAnek_Grid_Layout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7C12684926805F0000182401 /* EkAnek_Grid_Layout.xcdatamodeld */; };
 		7C12684D26805F0500182401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C12684C26805F0500182401 /* Assets.xcassets */; };
 		7C12685026805F0500182401 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C12684E26805F0500182401 /* LaunchScreen.storyboard */; };
 		7C12685B26805F0700182401 /* EkAnek_Grid_LayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12685A26805F0700182401 /* EkAnek_Grid_LayoutTests.swift */; };
@@ -41,6 +39,15 @@
 		7C1268C326808D4600182401 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1268AF26808D4600182401 /* Request.swift */; };
 		7C1268C52680920C00182401 /* FlickrNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1268C42680920C00182401 /* FlickrNetworkTests.swift */; };
 		7C1268C62680922B00182401 /* FlickrSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1268A326808D4500182401 /* FlickrSearchService.swift */; };
+		7C1268CA2680930400182401 /* FlickrRequestConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12689C26808D4500182401 /* FlickrRequestConfig.swift */; };
+		7C1268CB2680931200182401 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1268A826808D4600182401 /* Result.swift */; };
+		7C1268CC2680931700182401 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12689926808D4500182401 /* Photos.swift */; };
+		7C1268CD2680933A00182401 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1268AB26808D4600182401 /* NetworkManager.swift */; };
+		7C1268CE2680934100182401 /* FlickrSearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12689A26808D4500182401 /* FlickrSearchResults.swift */; };
+		7C1268CF2680936100182401 /* FlickrConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12689726808D4500182401 /* FlickrConstants.swift */; };
+		7C1268D02680937F00182401 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1268AF26808D4600182401 /* Request.swift */; };
+		7C1268D12680938F00182401 /* FlickrPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12689B26808D4500182401 /* FlickrPhoto.swift */; };
+		7C1268D22680939B00182401 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1268AE26808D4600182401 /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,9 +76,7 @@
 		7C12683D26805EFF00182401 /* EkAnek_Grid_Layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EkAnek_Grid_Layout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C12684026805EFF00182401 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C12684226805EFF00182401 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7C12684426805EFF00182401 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7C12684726805F0000182401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7C12684A26805F0000182401 /* EkAnek_Grid_Layout.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EkAnek_Grid_Layout.xcdatamodel; sourceTree = "<group>"; };
 		7C12684C26805F0500182401 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C12684F26805F0500182401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C12685126805F0500182401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -167,12 +172,10 @@
 				7C1268A626808D4600182401 /* Utilities */,
 				7C12684026805EFF00182401 /* AppDelegate.swift */,
 				7C12684226805EFF00182401 /* SceneDelegate.swift */,
-				7C12684426805EFF00182401 /* ViewController.swift */,
 				7C12684626805F0000182401 /* Main.storyboard */,
 				7C12684C26805F0500182401 /* Assets.xcassets */,
 				7C12684E26805F0500182401 /* LaunchScreen.storyboard */,
 				7C12685126805F0500182401 /* Info.plist */,
-				7C12684926805F0000182401 /* EkAnek_Grid_Layout.xcdatamodeld */,
 			);
 			path = EkAnek_Grid_Layout;
 			sourceTree = "<group>";
@@ -525,7 +528,6 @@
 				7C1268BC26808D4600182401 /* GCD.swift in Sources */,
 				7C1268C126808D4600182401 /* ImageDownloadOperation.swift in Sources */,
 				7C1268B926808D4600182401 /* ImageCollectionViewCell.swift in Sources */,
-				7C12684B26805F0000182401 /* EkAnek_Grid_Layout.xcdatamodeld in Sources */,
 				7C1268C326808D4600182401 /* Request.swift in Sources */,
 				7C1268B126808D4600182401 /* FlickrViewModel.swift in Sources */,
 				7C1268B526808D4600182401 /* FlickrPhoto.swift in Sources */,
@@ -536,7 +538,6 @@
 				7C1268B426808D4600182401 /* FlickrSearchResults.swift in Sources */,
 				7C1268B326808D4600182401 /* Photos.swift in Sources */,
 				7C1268BB26808D4600182401 /* DataCache.swift in Sources */,
-				7C12684526805EFF00182401 /* ViewController.swift in Sources */,
 				7C1268C226808D4600182401 /* Reachability.swift in Sources */,
 				7C1268BD26808D4600182401 /* Result.swift in Sources */,
 				7C12684126805EFF00182401 /* AppDelegate.swift in Sources */,
@@ -548,9 +549,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C1268CC2680931700182401 /* Photos.swift in Sources */,
+				7C1268CF2680936100182401 /* FlickrConstants.swift in Sources */,
+				7C1268D22680939B00182401 /* Reachability.swift in Sources */,
 				7C1268C62680922B00182401 /* FlickrSearchService.swift in Sources */,
+				7C1268CB2680931200182401 /* Result.swift in Sources */,
+				7C1268D12680938F00182401 /* FlickrPhoto.swift in Sources */,
+				7C1268CD2680933A00182401 /* NetworkManager.swift in Sources */,
 				7C12685B26805F0700182401 /* EkAnek_Grid_LayoutTests.swift in Sources */,
+				7C1268CA2680930400182401 /* FlickrRequestConfig.swift in Sources */,
+				7C1268D02680937F00182401 /* Request.swift in Sources */,
 				7C1268C52680920C00182401 /* FlickrNetworkTests.swift in Sources */,
+				7C1268CE2680934100182401 /* FlickrSearchResults.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -875,19 +885,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		7C12684926805F0000182401 /* EkAnek_Grid_Layout.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				7C12684A26805F0000182401 /* EkAnek_Grid_Layout.xcdatamodel */,
-			);
-			currentVersion = 7C12684A26805F0000182401 /* EkAnek_Grid_Layout.xcdatamodel */;
-			path = EkAnek_Grid_Layout.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 7C12683526805EFF00182401 /* Project object */;
 }
